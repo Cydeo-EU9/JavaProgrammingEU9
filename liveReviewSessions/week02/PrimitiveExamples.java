@@ -74,5 +74,27 @@ Note: Important rulo of Java --> java runs from left to right : String+char = St
         x > y ---> true result
          */
 
+        double _average = 5.5;
+        String EU9 = "EU9 is great";
+        String println = "Not a reserved word";
+      //  String for = "reserved word";
     }
+
+    /*
+    Naming Rules --- Examples for Valid (V) and Invalid (I) Examples:
+    _average : V  --> we can use _ and $ underScore at the beginning of variableName
+    EU9 : V --- we can use numbers if they are not first characters
+    ABC : V
+    println : V not a reserved word
+    for : I reserved word for java
+    "hello" : I starts with "
+    sum_of_data : V
+    first-name : I  we can not use - dash
+    42isTheSolution : I --- can NOT start with number
+
+variable name: starts with small letter, and if you have more word, then we use camel case
+sumOfData (naming convention)
+
+     */
+
 }
