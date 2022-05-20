@@ -24,7 +24,7 @@ Total price: 15.3
      */
       public static void main(String[] args) {
 
-          String item1, item2, item3, report;
+          String item1, item2, item3, report;    // since all the variables are same dataType I can declare them on a single line
           double price1, price2, price3, totalPrice;
 
           item1 = "Tomatoes";
