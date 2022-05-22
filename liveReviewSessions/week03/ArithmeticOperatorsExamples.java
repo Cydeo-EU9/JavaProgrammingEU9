@@ -38,5 +38,16 @@ public class ArithmeticOperatorsExamples {
         System.out.println("sum = " + sum); // 136
 
 
+        /*
+        Conversion formula is
+        (C*1,8+32)=F
+         */
+
+        double tempInCelcius, tempInFahrenheit;
+        tempInCelcius = 70.2;
+        tempInFahrenheit = tempInCelcius*1.8+32;
+        System.out.println("tempInFahrenheit = " + tempInFahrenheit); // 158.36
+
+
     }
 }
