@@ -25,5 +25,19 @@ public class UnaryOperatorExamples {
         a = --a + a++ + a-- + a++; // 49+ 49 + 50 + 49  :
         System.out.println("a = " + a); // 197
 
+
+        a = 1;
+        a = -a-- + a++ / (-a-- * --a);   // -1 + (-2 / 1 * 0)   = -1
+        System.out.println("a = " + a);
+
+        x = 4;
+        y = x * 4 - x++;  // 4 * 4 - 4  = 12
+        System.out.println("y = " + y);
+
+
+        boolean b1 = true;
+
+        System.out.println(!b1);  // unary not operator
+
     }
 }
