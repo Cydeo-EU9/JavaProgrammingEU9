@@ -23,5 +23,13 @@ public class OperatorsExamples {
         System.out.println("x = " + x);// 0
 
 
+        // Relational Operators : > , < , >= , <=  result is boolean either true false
+
+        int num1 = 10;
+        int num2 = 5;
+        boolean b = num1>num2; // true    x = y + z
+
+        System.out.println("First number number is greater than Second number " + b);
+
     }
 }
