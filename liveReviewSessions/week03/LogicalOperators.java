@@ -19,6 +19,11 @@ public class LogicalOperators {
         System.out.println("compTwo = " + compTwo);
         System.out.println("O = " + O);
 
+
+        boolean compThree = A > O && ++O >= P; // false && compiler does not check
+        System.out.println("compThree = " + compThree);
+        System.out.println("O = " + O);  // 29
+
     }
 
 }
