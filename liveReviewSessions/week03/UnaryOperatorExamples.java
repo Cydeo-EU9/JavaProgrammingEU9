@@ -13,5 +13,17 @@ public class UnaryOperatorExamples {
         System.out.println(b--); // 26 first use the value then decrease
         System.out.println(b); // 25
 
+        System.out.println("----Unary Tasks-----");
+        // Task 18
+        int x = 2;
+        int y = x++;
+        System.out.println("y = " + y); // 2
+        System.out.println("x = " + x); // 3
+
+        a = 50;
+
+        a = --a + a++ + a-- + a++; // 49+ 49 + 50 + 49  :
+        System.out.println("a = " + a); // 197
+
     }
 }
