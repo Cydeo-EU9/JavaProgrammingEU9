@@ -20,6 +20,23 @@ public class ArithmeticOperatorsExamples {
         int leftover = 17%3;  // you can assign the result of an operator to a variable
         System.out.println("leftover = " + leftover);
 
+        int outcome = 12 + 6 / 3 ;
+        System.out.println("outcome = " + outcome); // 14
+        // re-assign
+        outcome = 4 + 17 % 2 -1 ;
+        System.out.println("outcome = " + outcome); // 4
+
+        outcome = 3+4*4+5*(4+3)-1;
+        System.out.println("outcome = " + outcome); // 53
+
+
+        int num1,num2,sum; // declare variable
+        num1 = 46;
+        num2 = 90;
+        sum = num1 + num2;
+
+        System.out.println("sum = " + sum); // 136
+
 
     }
 }
