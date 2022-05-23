@@ -27,7 +27,16 @@ public class UnaryOperatorExamples {
 
 
         a = 1;
-        a = -a-- + a++ / (-a-- * --a);   // -1 + (-2 / 1 * 0)   = -1
+        System.out.println("------");
+        /*
+        Unary negative sign does not really change the stored value of the variable
+         */
+        int c=1;
+        System.out.println(-c--); // so c is 1 and -c is -1, however c--  ---> turns it into 0
+        System.out.println(-c--); // so this print 0 zero
+        System.out.println("------");
+
+        a = -a-- + a++ / -a-- * --a;   // -1 + 0 / -1 * -1  : If we use this rule everything fits in right and we get -1
         System.out.println("a = " + a);
 
         x = 4;
