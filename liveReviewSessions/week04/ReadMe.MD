@@ -12,3 +12,7 @@
 ###Branched Conditionals
     1. If Else If Else...
     2. Switch 
+        a. it can only perform == (equals) comparison. > , < 
+        b. byte, char, int, String, short variables type 
+        c. data type of case and condition should be same
+        d. use BREAK, to get out of Swtich Block

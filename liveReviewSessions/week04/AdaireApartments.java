@@ -34,14 +34,16 @@ public class AdaireApartments {
             case 1:  // condition
                 System.out.println("You are living at First Floor");  // action
                 break;
+            default:
+                System.err.println("There is NO such floor");
+                break;
             case 2:  // condition
                 System.out.println("You are living at Second Floor");  // action
                 break;
             case 3:  // condition
                 System.out.println("You are living at Third Floor");  // action
                 break;
-            default:
-                System.err.println("There is NO such floor");
+
         }
 
 
