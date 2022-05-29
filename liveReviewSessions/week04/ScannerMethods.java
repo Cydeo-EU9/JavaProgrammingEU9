@@ -34,6 +34,8 @@ public class ScannerMethods {
 
         System.out.println("sum = " + sum);
 
+        scan.close();
+
 
     }
 }

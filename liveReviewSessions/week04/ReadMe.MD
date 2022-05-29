@@ -9,4 +9,6 @@
         e. Ternary Operator
 
 ###Scanner Class Methods
-    
+###Branched Conditionals
+    1. If Else If Else...
+    2. Switch 
