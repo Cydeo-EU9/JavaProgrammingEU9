@@ -14,7 +14,7 @@ public class AdaireApartments {
         System.out.println("which floor are you living?");
 
         floorNumber = input.nextInt();
-
+        System.out.println("With If Else Statements");
         // with if else statements
 
         if(floorNumber == 1){   // condition
@@ -26,6 +26,24 @@ public class AdaireApartments {
         }else {
             System.err.println("There is NO such floor");
         }
+
+        System.out.println("With Switch Statements");
+        // Switch statements
+
+        switch (floorNumber){
+            case 1:  // condition
+                System.out.println("You are living at First Floor");  // action
+                break;
+            case 2:  // condition
+                System.out.println("You are living at Second Floor");  // action
+                break;
+            case 3:  // condition
+                System.out.println("You are living at Third Floor");  // action
+                break;
+            default:
+                System.err.println("There is NO such floor");
+        }
+
 
         input.close();
 
