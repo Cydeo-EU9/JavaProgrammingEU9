@@ -6,7 +6,7 @@ public class Palindrome {
         // what is palindrome?   "madam" when you reverse : "madam" again ||  KAYAK is palindrome, noon: palindrome PIQ for JAVA
         // check for 5 characters word, and without methods that we did not learn
 
-        String word = "madam";
+        String word = "MadAM";
 
         /*
          how can I reverse a string in java ?
@@ -30,13 +30,15 @@ public class Palindrome {
         System.out.println("result = " + result);
 
 
-        if(word.equals(result)){
+        if (word.equals(result)) {
             System.out.println("They are Palindrome");
         }
 
 // Kadir's Solution:
+        /*
         String str = "kazak"; // str.charAt(0): k  = str.charAt(4) : k
         if (str.charAt(0)==str.charAt(4)&&str.charAt(1)==str.charAt(3)) System.out.println("Palindrome");
 
+    */
     }
 }

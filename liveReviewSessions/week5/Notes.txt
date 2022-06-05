@@ -24,4 +24,8 @@ Java Compiler checks the String Pool. And if there is alreay a string in the poo
      make a note paper: what methods asks from me (parameter)
                         what will this method reutrn to me
 
+  DEBUG:
+  - When do we need debugging ? : if your code does not give you the result that you were expecting.
+  - Debug mode of IntelliJ helps you to go over your CODE line by line
+
 
