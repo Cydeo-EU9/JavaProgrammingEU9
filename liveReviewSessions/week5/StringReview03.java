@@ -6,8 +6,7 @@ public class StringReview03 {
         substring(index,index) :  method ask from me what int-indexNumber,  return to me : a new String in string pool
        replace() method : it takes chars (old and new chars)  ---> a new String
                         : it also takes Strings (old and new) ---> a new String
-       When your method is doing more action with other DataTypes/Parameters : METHOD OVERLOADING
-         */
+      */
 
         String message = "we still HAVE a long Way to go, So be patient!";
         // make first character uppercase rest is lowercase
