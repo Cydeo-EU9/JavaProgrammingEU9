@@ -8,6 +8,7 @@ public class Calculator {
         // We will get two numbers of Double from user and we will get a char (+,-,/,%,*)
 
         double num1, num2, result;
+        result = 0;
         char operator;
 
         Scanner scanner = new Scanner(System.in);
@@ -66,6 +67,7 @@ public class Calculator {
                 break;
         }
 
+        System.out.println("result = " + result);
 
     }
 }
