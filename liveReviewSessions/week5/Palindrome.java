@@ -17,6 +17,9 @@ public class Palindrome {
          */
 
         // create an empty container for my result
+
+        word = word.toLowerCase();  // to make our result of the task case insensitive
+
         String result = "";
         result += word.charAt(4);  // instead of writing 4: length()-1
         result += word.charAt(3);
@@ -31,7 +34,9 @@ public class Palindrome {
             System.out.println("They are Palindrome");
         }
 
-
+// Kadir's Solution:
+        String str = "kazak"; // str.charAt(0): k  = str.charAt(4) : k
+        if (str.charAt(0)==str.charAt(4)&&str.charAt(1)==str.charAt(3)) System.out.println("Palindrome");
 
     }
 }
