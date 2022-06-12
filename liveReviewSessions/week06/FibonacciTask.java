@@ -41,12 +41,24 @@ a series of numbers in which each number ( Fibonacci number ) is the sum of the 
 
         String series = ""+num1+" "+num2+" ";
 
-        for (int i = 2; i<=n ; i++){   // if n=6, it will do 5 times iteration
-            sum = num1+num2;
-            series +=sum+" ";
-            num1 = num2;
-            num2 = sum;
+        boolean check = true;
+        for(   ; check ;  ){  // for loops are repeatable ifs
+            if(n>2){
+                for (int i = 2; i<=n ; i++){   // if n=6, it will do 5 times iteration
+                    sum = num1+num2;
+                    series +=sum+" ";
+                    num1 = num2;
+                    num2 = sum;
+                }
+                check = false;
+            }else{
+                System.out.println("Please enter term number for Fibonacci Series again ? : ");
+                n = scanner.nextInt();
+            }
         }
+
+
+
         System.out.println("series = " + series);
         System.out.println("final number in the squence = " + num2);
 
