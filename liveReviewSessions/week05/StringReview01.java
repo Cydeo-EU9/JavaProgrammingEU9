@@ -1,4 +1,4 @@
-package week5;
+package week05;
 
 public class StringReview01 {
 
