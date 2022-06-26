@@ -16,13 +16,12 @@ public class TaskNestedLoop01 {
     Nested Loop
     Outer loop should handle rows
     inner loop should handle columns
-
-   */
+  */
 
     public static void main(String[] args) {
-        int rowCount = 10;
+        int rowCount = 5;
         for(int row=1; row<=rowCount;row++){
-            int value = row;
+            int value = row;  // value variable holds printing value
             for(int col = 1; col<=row ; col++){
                 System.out.print(value+" ");
                 value += rowCount - col;
