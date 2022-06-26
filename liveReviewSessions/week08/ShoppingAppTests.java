@@ -24,5 +24,17 @@ public class ShoppingAppTests {
             System.out.println("items = " + items[i]);
         }
 
+        System.out.println("---set a boolean variable true if 'ipad' exits in the items----");
+        boolean itemExists = false;
+        for (String item : items) {
+             if(item.equalsIgnoreCase("ipad")){
+                 itemExists = true;
+                 break;
+             }
+        }
+        if(itemExists){
+            System.out.println("We have ipad in the list");
+        }
+
     }
 }

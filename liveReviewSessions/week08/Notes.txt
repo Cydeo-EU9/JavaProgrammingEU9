@@ -1,0 +1,16 @@
+
+
+  for (String item : items) {
+
+        }
+        for (int itemID : itemIDs) {
+
+        }
+        for (double price : prices) {
+
+        }
+        For Each loop : is used when you have Data Structure (Arrays, ArrayList, other Collections...)
+        We need two parts:
+        1. temporary variable: needs to be same data type with the Array
+        2. ':' then collection
+        Disadvantage: no backwards and no jumping to index
