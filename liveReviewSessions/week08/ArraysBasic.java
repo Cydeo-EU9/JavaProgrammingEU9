@@ -40,13 +40,22 @@ public class ArraysBasic {
 
         }
 
-        String str = new String("Bad Request"); // we are creating a String object
+    //    String str = new String("Bad Request"); // we are creating a String object
         /*
         PIQ : explain String pool and JAVA memory structure
         2 ways of creating String
         literal way  : goes to String Pool
         with new keyword : not in the string pool
+Each Status Code means = 200 : OK
+Each Status Code means = 201 : Created
+Each Status Code means = 204 : No Content
+Each Status Code means = 400 : Bad Request
+Each Status Code means = 401 : Unauthorized
+Each Status Code means = 403 : Forbidden
+Each Status Code means = 404 : Not Found
+Each Status Code means = 500 : Internal Server Error
          */
-        String [] responseTypes = new String[]{"OK","Created","No Content",str,"Unauthorized","Forbidden","Not Found","Internal Server Error"};
+        String [] responseTypes = new String[]{"OK","Created","No Content","Bad Request","Unauthorized","Forbidden","Not Found","Internal Server Error"};
+
     }
 }
