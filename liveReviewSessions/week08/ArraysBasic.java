@@ -30,5 +30,23 @@ public class ArraysBasic {
         }
 
         System.out.println(Arrays.toString(codes));
+
+        System.out.println("----second way of creating arrays");
+
+        int [] statusCodes = {200,201,204,400,401,403,404,500}; // declare and initialize your array
+
+        for (int i = 0; i < statusCodes.length; i++) {
+            System.out.println("statusCodes = " + statusCodes[i]);
+
+        }
+
+        String str = new String("Bad Request"); // we are creating a String object
+        /*
+        PIQ : explain String pool and JAVA memory structure
+        2 ways of creating String
+        literal way  : goes to String Pool
+        with new keyword : not in the string pool
+         */
+        String [] responseTypes = new String[]{"OK","Created","No Content",str,"Unauthorized","Forbidden","Not Found","Internal Server Error"};
     }
 }
