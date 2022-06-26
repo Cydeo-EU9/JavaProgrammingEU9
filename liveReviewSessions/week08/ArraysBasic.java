@@ -57,5 +57,13 @@ Each Status Code means = 500 : Internal Server Error
          */
         String [] responseTypes = new String[]{"OK","Created","No Content","Bad Request","Unauthorized","Forbidden","Not Found","Internal Server Error"};
 
+        int sizeOfArrays = responseTypes.length;
+
+        for (int i=0; i<sizeOfArrays; i++){
+            String text = statusCodes[i]+" : "+responseTypes[i];
+            System.out.println("Each Status Code means ="+text);
+        }
+
+
     }
 }
