@@ -1,6 +1,6 @@
 package week09;
 
-public class EtsySearchTest {
+public class SearchTest {
 
     public static void main(String[] args) {
 
