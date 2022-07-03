@@ -1,0 +1,4 @@
+Multi-dimensional Arrays:
+    n dimensianal array contains (n-1) dimensional arrays
+
+Methods:
