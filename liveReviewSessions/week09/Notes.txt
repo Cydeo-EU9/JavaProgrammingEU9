@@ -1,4 +1,9 @@
 Multi-dimensional Arrays:
     n dimensianal array contains (n-1) dimensional arrays
 
-Methods:
+Custom Methods: Re-usability
+    Strings : methods
+        charAt(), substring() ....
+
+void : No return type
+return Type methods
