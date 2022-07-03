@@ -33,6 +33,11 @@ public class ArmstrongNumber {
         int testNumber = 153;
         System.out.println("isArmstrong(testNumber) = " + isArmstrong(testNumber));
 
+        for (int i = 100; i < 1000; i++) {
+            if(isArmstrong(i)){
+                System.out.println("i = " + i);
+            }
+        }
 
     }
     public static boolean isArmstrong(int number){
