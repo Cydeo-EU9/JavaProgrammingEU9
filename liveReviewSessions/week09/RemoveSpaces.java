@@ -13,6 +13,7 @@ public class RemoveSpaces {
      public static void main(String[] args) {
          String str = "  Hello world      I      love      Java    ";
          System.out.println(removeExtraSpaces(str));
+         System.out.println(removeWithSimpleWay(str));
      }
     public static String removeExtraSpaces(String input){
         String[] s = input.trim().split(" "); // this line also keeps empty spaces as a array element
@@ -26,4 +27,9 @@ public class RemoveSpaces {
         }
       return result;
     }
+    public static String removeWithSimpleWay(String input){
+
+         return input.trim().replaceAll(" ","");
+   }
+
 }
