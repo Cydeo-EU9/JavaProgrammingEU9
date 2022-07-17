@@ -5,7 +5,10 @@
         + DataTypes of parameters: sum(int a, int b) , sum (double a, double b)
         + Squence of the parameters: sum(int a, double b), sum(double a, int b)
         + invalid case : return type does not matter for method OVERLOADING (check this when you hear about OVERRIDING)
-        Benefits: easy to remember, reusability, clean coding
+        Benefits: reusability, clean coding
 * Wrapper Classes
-* ArrayList
+        + Why we need? : to use primitives with our Collection framework
+        we are wrapping our primitive data (int, double, char) into Object Types: Integer, Double
+        Wrapper Classes brings us useful methods : parsInt(String), Character.isAlphabetic()
+* ArrayList is part of Collections, and a very useful DATA STRUCTURE
 * Class and Object
