@@ -27,10 +27,28 @@ public class SmallTasksWithArrayList {
         numberSwapper(numbers);
         System.out.println("numbers after swapping = " + numbers);
 
+        /*
+        3. write a method that can multiply each odd number by 2 in an arraylist
+                        ex: list = [1,2,3,4,5];
+                            output: [2,2,6,4,10]
+         */
+
+        System.out.println("numbers after multiplier = " + oddMultiplier(numbers));
     }
 
     public static ArrayList<Integer> numberSwapper(ArrayList<Integer> arrayList){
         Collections.swap(arrayList,0,arrayList.size()-1);
+        return arrayList;
+    }
+
+    public static ArrayList<Integer> oddMultiplier(ArrayList<Integer> arrayList){
+        // need to iterate through my arraylist to find and multiply our ODD numbers
+        // we use % modulus operator
+        for (int i = 0; i < arrayList.size(); i++) {
+             if(arrayList.get(i)%2==1){ // checking ODD numbers
+                 arrayList.set(i,arrayList.get(i)*2);
+             }
+        }
         return arrayList;
     }
 }
