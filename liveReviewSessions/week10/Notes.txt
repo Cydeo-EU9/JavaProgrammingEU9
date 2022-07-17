@@ -1,0 +1,11 @@
+* Method Overloading
+    - When a class has more than one method with same name, then there is method overloading
+    - Different parameters:
+        + Number of parameters: sum(int a, int b) , sum(int a, int b, int c)
+        + DataTypes of parameters: sum(int a, int b) , sum (double a, double b)
+        + Squence of the parameters: sum(int a, double b), sum(double a, int b)
+        + invalid case : return type does not matter for method OVERLOADING (check this when you hear about OVERRIDING)
+        Benefits: easy to remember, reusability, clean coding
+* Wrapper Classes
+* ArrayList
+* Class and Object
