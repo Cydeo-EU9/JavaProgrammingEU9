@@ -57,3 +57,15 @@
         			                c – the collection in which to determine the frequency of o
                                     o – the object whose frequency is to be determined
 * Class and Object
+        Class is BLUEPRINT                   : Instructor     |  Student   ---Attributes and Actions
+        Object is an instance of that type   : Oscar, Asya    |  Kenan, Nermin
+
+       FootballTeams --- Class            Player Class
+       Fenerbahce    ---- Object          Szalai object
+
+  Constructors: similar to methods, but they are used for creating object (instance) of the blueprint class
+
+  Variable Types:
+  - Local VAriables
+  - Instance Variables --- belong to object
+  - Static Variables --- belong to class
