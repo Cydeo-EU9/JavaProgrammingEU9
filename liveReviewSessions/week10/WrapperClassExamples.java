@@ -28,7 +28,12 @@ public class WrapperClassExamples {
         System.out.println(Arrays.toString(arr));
 
         int resultAsPrimitive = Integer.parseInt(arr[3]);
-        System.out.println(resultAsPrimitive+1);
+        System.out.println("resultAsPrimitive = " + resultAsPrimitive);
+        // you can NOT use Wrapper Classes Methods with primitive
+
+        Integer resultAsObject = Integer.valueOf(arr[3]);
+        System.out.println("resultAsObject = " + resultAsObject);
+
 
     }
 }
