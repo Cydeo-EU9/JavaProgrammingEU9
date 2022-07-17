@@ -1,4 +1,4 @@
-package week10;
+package week10and11;
 
 public class LoginTest {
     public static void main(String[] args) {

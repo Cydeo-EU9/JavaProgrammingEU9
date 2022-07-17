@@ -1,6 +1,5 @@
-package week10;
+package week10and11;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
