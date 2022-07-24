@@ -1,0 +1,8 @@
+static methods ---> can be called without creating an OBJECT-advantage, belongs to the class
+
+especially at testing we will create UTILITY classes, in these classes our methods will be all static methods
+
+static vs instance:
+1. instance method can be called only by the object name
+2. static methods CAN NOT reach non-static fields(instance) fields
+3. from static method we can not call instance variables HOWEVER, we can call static field from an instance method

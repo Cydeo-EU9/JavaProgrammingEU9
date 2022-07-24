@@ -1,0 +1,30 @@
+Constructor: special methods, It is a MUST for a class, it might be used to initialize your fields
+
+Object : new ClassName()  ----> we are invoking/calling the constructor
+
+accessModifier className(){
+statements
+}
+
+Task 1:
+Employee:
+	attribute/fields/variables
+name, jobTitle, ID, salary
+
+	add a constructor to initialize all the fields
+	add a default constructor with no fields
+
+	toString() method will print out the fields
+	- instance method (owned by the object)
+	- return type String
+	- it takes NO parameter
+	- @Override : this is about inheritance you will learn later
+
+Encapsulation Class:
+Getters and Setters
+Setter : is used for setting a value for the field
+    - might have a condition
+Getter : is used to get that value
+
+	When do we need this. keyword?
+	- When your parameter variable name is same with instance variable name

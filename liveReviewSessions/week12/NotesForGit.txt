@@ -1,0 +1,65 @@
+Soft Skill with Asya: completed
+
+Technical Part:
+		- JAVA
+		- Git&GitHub
+		- UI Test Automation (Selenium+Junit+Cucumber Framework+CI/CD-Jenkins+Selenium Grid)
+		- SQL and Database Testing: JDBC Library
+		- API Testing: RestAssured Library
+
+Project Implementation with/within your groups+Mentors
+		- JIRA for/as project management tools
+		- GitHub Project Group Collaboration
+
+(Why do we need?) or (How we can?) utilize Git/Github
+- collaboration
+- keep track of changes
+- SHARE *****
+- TRACK ****
+- Version Control --- To keep history of your project
+- BackUp Location --- Push then Clone Project at different computer
+
+--- We will create a new project to practice Git/GitHub
+-- At this project: we will review week12 JAVA topics
+** Create a new JAVA project at your local computer
+		- Name: JavaWeek12Project
+
+	Git : This is local program that you install "git.exe", handles all version control in your local computer
+	GitHub: This is on the Internet, you open an account so that you can have remote repo
+
+	-- Your GitHub account must be added to IntelliJ
+
+	Git Terms:
+	Repository: Folder/Package, keeps track of changes
+	- Local Repo: on your Local Computer
+	- Remote Repo: Github
+
+	Commit:
+		- The changes you made
+		- the author of the commit
+		- the comment of the author
+		- SHA (Simple Hashing Algorithm)- unique character combinations, identifies the commit
+
+
+GIT Operations: 1.Add ---> 2.Commit --- > 3. Push
+
+	Working Directory (Local place for the project)	 --- ADD ---> Staging Index
+
+	From Staging ----> Commit ----> Local Repo
+
+	Local Repo ----> Push ------> Remote Repo
+
+	Sharing Project: If it is your first time pushing, you need share project first at the github (Adding a Remote Repo to your project)
+	- it means you are creating a file location on the GitHub
+
+	-- To start version control: 2 ways --either use the VCS menu or write "git init" to your terminal
+
+	Click on VCS then Enable Version Control
+
+	Initialized empty Git repository in C:/Users/Oscar/IdeaProjects/EU9_JavaWeek12Project/.git/  I HAVE CREATED A LOCAL REPO IN MY COMPUTER FOR THIS PROJECT
+
+	Next Step: Create .gitignore file
+
+	When your files are red color: for Git, it means they are NOT tracked (not added to staging index)
+
+	*** Git does not keep track of empty folders/packages: you need to have a file in it
