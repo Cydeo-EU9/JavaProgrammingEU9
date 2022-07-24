@@ -16,4 +16,8 @@ public class TV {
        on = true;
    }
 
+   public void anotherMethod(){
+
+   }
+
 }
