@@ -89,10 +89,24 @@ public class Replit_Method_LameDB {
             case "edit":
                 // our original array will stay same
                 newArr = new String[arr.length];
+                for(int i=0; i< arr.length;i++){
+                    if(index==i){
+                        newArr[i]= data;
+                        continue;
+                    }
+                    newArr[i]=arr[i];
+              }
                 break;
             case "delete":
                 // our original array will decrease with 1 element
                 newArr = new String[arr.length-1];
+                for (int i=0;i< arr.length;i++){
+                    if(index==i){
+                        newArr[i]=data;
+                    }
+                    newArr[i]=arr[i];
+                }
+
                 break;
         }
 
@@ -114,6 +128,13 @@ public class Replit_Method_LameDB {
     public static void main(String[] args) {
         System.out.println(lameDb("1etsy#2wooden#3spoon","add","1","bbb"));
      //   System.out.println(Replit_Method_LameDB.lameDb("1etsy#2wooden#3spoon", "add", "4", "aaa")); Since this a static method we can call with class name as well
+
+
+        System.out.println(lameDb("1test#2bla#3foo","edit","2","bbb"));
+
+
+        System.out.println(lameDb("1tst#2bla#3foo","delete","1",""));
+
 
         Replit_Method_LameDB obj = new Replit_Method_LameDB();
         obj.lameDb("1etsy#2wooden#3spoon", "add", 4, "aaa");
