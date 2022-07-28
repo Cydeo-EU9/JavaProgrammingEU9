@@ -68,16 +68,41 @@ public class Replit_Method_LameDB {
             arr[i] = arr[i].substring(1);
         }
         System.out.println(Arrays.toString(arr));
+        int index = Integer.parseInt(id)-1;  // 4th element means index 3 for Array
+        String[] newArr = null;
+
         switch (op){
             case "add":
+                // our original array will increase with 1 element
+                newArr = new String[arr.length+1];
+                for(int i=0,j=0; i < arr.length+1; ){
+                    if(index==i){
+                        newArr[i]= data;
+                        i++;
+                        continue;
+                    }
+                    newArr[i]=arr[j];
+                    i++;
+                    j++;
+                }
                 break;
             case "edit":
+                // our original array will stay same
+                newArr = new String[arr.length];
                 break;
             case "delete":
+                // our original array will decrease with 1 element
+                newArr = new String[arr.length-1];
                 break;
         }
 
-        return resultDb;
+        System.out.println(Arrays.toString(newArr));
+        int z = 1;
+        for(String each: newArr){  // to create result String with each of our Array element
+            resultDb+=z+each+"#";
+            z++;
+        }
+        return resultDb.substring(0,resultDb.length()-1);  // taking out the last # from the end
     }
 
     public String lameDb(String db, String op, int id, String data){  // this is an instance method even though it is in the same class, it needs an object created to be called
@@ -87,7 +112,7 @@ public class Replit_Method_LameDB {
     }
 
     public static void main(String[] args) {
-        System.out.println(lameDb("1etsy#2wooden#3spoon", "add", "4", "aaa"));
+        System.out.println(lameDb("1etsy#2wooden#3spoon","add","1","bbb"));
      //   System.out.println(Replit_Method_LameDB.lameDb("1etsy#2wooden#3spoon", "add", "4", "aaa")); Since this a static method we can call with class name as well
 
         Replit_Method_LameDB obj = new Replit_Method_LameDB();
