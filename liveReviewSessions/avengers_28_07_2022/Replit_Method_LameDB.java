@@ -99,10 +99,11 @@ public class Replit_Method_LameDB {
                 break;
             case "delete":
                 // our original array will decrease with 1 element
-                newArr = new String[arr.length-1];
+                newArr = new String[arr.length];
                 for (int i=0;i< arr.length;i++){
                     if(index==i){
                         newArr[i]=data;
+                        continue;
                     }
                     newArr[i]=arr[i];
                 }
@@ -113,8 +114,14 @@ public class Replit_Method_LameDB {
         System.out.println(Arrays.toString(newArr));
         int z = 1;
         for(String each: newArr){  // to create result String with each of our Array element
-            resultDb+=z+each+"#";
-            z++;
+            if(!each.isEmpty()) {
+                resultDb += z + each + "#";
+                z++;
+            }else {
+                resultDb+="#";
+                z++;
+                continue;
+            }
         }
         return resultDb.substring(0,resultDb.length()-1);  // taking out the last # from the end
     }
