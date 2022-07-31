@@ -56,3 +56,9 @@ What can NOT be inherited?
     CTRL +R or CMND+ R o easily replace code with a new one
 
     Normally we get Default Constructor for FREE, but if you already created a parameterized constructor, Default IS NOT FREE anymore
+
+    Last Example:
+    Parent Book Class: title, type, author, price
+        - Ebook
+        - PaperBook
+        - AudioBook
