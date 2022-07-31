@@ -2,10 +2,23 @@ What is Encapsulation?
     Definition: Data hiding
     PIQ: How do you implement this OOP concept?
     1. Make all or necessary fields/attributes/variables private access modifier
-    2. Getter and Setter methods we reach the fields and do some action (read, writing, using the field)
+    2. PUBLIC Getter and Setter methods we reach the fields and do some action (read, writing, using the field)
     3. We don't reach the fields directly, we reach through some conditions
     4. We will use this concept at Singleton Driver Concept
     5. Salary field (condition for setting the field, >0), retrive your username that you have forgatten from an application, getter method for userName might need your email
+    6. CONDITION part is not necessary, depends on your code scenario
 
+Future Topic: ENUMs
+
+Concepts in Coding: they encounter a problem, until some genious finds a general solution
+
+When you are learning a new topic: COnsider this question first--Why did they need to create this?
+Second: Have your OWN words to describe a topic.
 
 ***** How dod you use OOP concepts in your (testing) Framework? -- Cucumber Framework
+
+OOP Concepts we will learn:
+Encapsulation
+Inheritance
+Abstraction
+Polymorphism
