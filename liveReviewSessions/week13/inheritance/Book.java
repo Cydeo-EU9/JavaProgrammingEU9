@@ -11,7 +11,8 @@ public class Book {
         this.price = price;
     }
 
-    public Book() {
+    public Book(){
+
     }
 
     public void buy(String store){
@@ -25,5 +26,13 @@ public class Book {
         System.out.println("Borrowing it from :"+user);
     }
 
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", type='" + type + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
