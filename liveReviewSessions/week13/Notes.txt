@@ -43,7 +43,7 @@ What can be inherited?
 
 What can NOT be inherited?
 - private vars. and meth.
-- constructors are not inherited, though they are called first with super()
+- constructors are not inherited, though Parent Constructor are called first with super()
     Class A(){}  --Parent
     Class B extends A(){} -- Child
     main{ B obj = new B(); first constructor of A class is called then B }
@@ -52,3 +52,7 @@ What can NOT be inherited?
     NOT SAY class XYZ extends ABC
 
     Benefit: Reusability and Maintability
+
+    CTRL +R or CMND+ R o easily replace code with a new one
+
+    Normally we get Default Constructor for FREE, but if you already created a parameterized constructor, Default IS NOT FREE anymore

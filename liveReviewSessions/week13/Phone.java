@@ -7,4 +7,16 @@ Define a subclass, CameraPhone that contains two instance variables: an integer 
 There is a constructor that accepts two integer parameters corresponding to the above two instance variables and which are used to initialize the respective instance variables.
 There is also a method named numPictures that returns (as an integer) the number of pictures the camera's memory can hold. Don't forget that a gigabyte is 1,000 megabytes.
      */
+
+       String make;
+       String model;
+       double price;
+
+    public Phone(String make, String model, double price) {
+        this.make = make;
+        this.model = model;
+        this.price = price;
+    }
+
+    public Phone() {    }
 }
