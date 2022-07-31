@@ -30,3 +30,25 @@ Polymorphism
         -- Only have getter nethod for that field: Credential Class UserName field is read-only, immutable (Strings) -- No mutation
         Mutation: Changing
         -- Person class is Read-Only
+
+INHERITANCE
+1. When a class inherits fields and actions of another class
+2. with the extends keyword
+3. Builds a "IS A" relationShip   (we also "HAS A" relationship)
+
+What can be inherited?
+- all public fields and methods
+- all protected var. and meth.  --- In actual life, developers usually make the fields PROTECTED
+- all default var. and meth. YES only if they are in the same package
+
+What can NOT be inherited?
+- private vars. and meth.
+- constructors are not inherited, though they are called first with super()
+    Class A(){}  --Parent
+    Class B extends A(){} -- Child
+    main{ B obj = new B(); first constructor of A class is called then B }
+- final class can NOT be inherited
+    final class ABC(){}
+    NOT SAY class XYZ extends ABC
+
+    Benefit: Reusability and Maintability
