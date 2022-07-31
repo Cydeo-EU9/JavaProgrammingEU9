@@ -3,6 +3,7 @@ package week13;
 public class Person {
     private String firstName,lastName;
     private int age;
+    private static String planet = "Earth";
 
     public Person() {   // Default NO parameter constructor
         this.firstName = "undefined";
@@ -27,6 +28,22 @@ public class Person {
     public int getAge() {
         return age;
     }
+    public void setAge(int age){
+        this.age=age;
+    }
+    public static String getPlanet(){
+        return planet;
+    }
 
+    public static void main(String[] args) {
+        Person personOne = new Person("Michael","Scolfield",30);
 
+     //   personOne.setFirstName()----DOES NOT EXIST
+      /*
+      Can I call the constructor to change the name?
+      NO
+       */
+        System.out.println("personOne.getPlanet() = " + personOne.getPlanet());
+        System.out.println("Person.getPlanet() = " + Person.getPlanet());
+    }
 }

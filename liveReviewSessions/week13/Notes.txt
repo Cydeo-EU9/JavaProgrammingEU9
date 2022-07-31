@@ -25,6 +25,7 @@ Polymorphism
 
 ** Write Only Classes
         -- Only have setter method for that field
+        -- Db is write only class
 ** Read-ONLY Classes
         -- Only have getter nethod for that field: Credential Class UserName field is read-only, immutable (Strings) -- No mutation
         Mutation: Changing
