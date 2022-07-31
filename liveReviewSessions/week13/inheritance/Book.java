@@ -1,7 +1,7 @@
 package week13.inheritance;
 
 public class Book {
-    String title,type,author;
+   protected String title,type,author;
     double price;
 
     public Book(String title, String type, String author, double price) {
@@ -11,9 +11,7 @@ public class Book {
         this.price = price;
     }
 
-    public Book(){
-
-    }
+public Book(){}
 
     public void buy(String store){
         System.out.println("Buying it from :"+store);
