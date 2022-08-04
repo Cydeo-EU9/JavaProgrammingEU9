@@ -1,0 +1,13 @@
+Constructors:
+
+Special Methods
+Difference Between Methods and Constructors?
+Constructor:
+Does NOT have return Type
+the name has to be same with Class name
+it can be with both No parameter or with parameters
+Can not be static
+the purpose of Constructor is to create object: with new keyword
+can only be called by another constructor
+* methods can be called over and over again
+* Constructor can be called for that particular object only once
