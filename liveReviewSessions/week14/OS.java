@@ -6,6 +6,10 @@ public class OS {
     public OS() {
     }
 
+    public OS(String OS) {
+        setOS(OS);
+    }
+
     public String getOS() {
         return OS;
     }

@@ -6,6 +6,10 @@ public class Browser {
     public Browser() {
     }
 
+    public Browser(String browserType) {
+        setBrowserType(browserType);
+    }
+
     public String getBrowserType() {
         return browserType;
     }

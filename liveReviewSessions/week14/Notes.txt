@@ -29,7 +29,7 @@ Requirements:
     - TestCase class will have browser and OS objects in it (HAS A relationship)
     - AppTest class extend to TestCase class (IS-A relationship)
 
-
+Kadir: we should  use setter methods in paremeterized constructors if variable is private, shouldn't we ?
 
 
 
