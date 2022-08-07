@@ -4,9 +4,13 @@ import java.util.Scanner;
 
 public class ShopListMakerApp {
 
+   // static GroceryList list = new GroceryList();
+
     public static Scanner scanner; // global variable for this class - Declare the object reference
     public static int x ; // this a global variable
+
     public static void main(String[] args) {
+        GroceryList list = new GroceryList();
         System.out.println(x);
         printInstructions();
       //  Scanner input = new Scanner(System.in);
@@ -16,6 +20,18 @@ public class ShopListMakerApp {
             System.out.println("Enter your NEXT choice: ");
             int choice = scanner.nextInt();
             switch (choice){
+                case 2:
+                    System.out.println("Enter your grocery item:");
+                    scanner.nextLine();
+                    list.addItemToList(scanner.nextLine());
+                    break;
+                case 3:
+                    System.out.println("Enter item number to be modified: ");
+                    int itemNo = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println("Enter a replacement item : ");
+                    String newItem = scanner.nextLine();
+                    list.modifyGroceryItem(itemNo,newItem);
                 case 6:
                     toContinue = false;
                     break;
