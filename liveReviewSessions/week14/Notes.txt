@@ -18,6 +18,9 @@ Requirements:
  Is-A relationship needed. So we have two classes, that extends and inherits
  Same name, same parameters
 
+ WHY we actually need it?
+Because child class might need more detailed implementaion of the SAME method
+
 
  Method Overloading: Same method name with deifferent parameters! Happens in the same class
 
@@ -30,6 +33,14 @@ Requirements:
     - AppTest class extend to TestCase class (IS-A relationship)
 
 Kadir: we should  use setter methods in paremeterized constructors if variable is private, shouldn't we ?
+
+
+super keyword
+super() --To call super class constructor
+super. --- to cal super class methods and objects
+
+
+
 
 
 

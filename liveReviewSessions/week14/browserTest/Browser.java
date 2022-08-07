@@ -1,4 +1,4 @@
-package week14;
+package week14.browserTest;
 
 public class Browser {
         private String browserType;

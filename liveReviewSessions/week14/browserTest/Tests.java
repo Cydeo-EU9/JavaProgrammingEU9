@@ -1,4 +1,4 @@
-package week14;
+package week14.browserTest;
 
 public class Tests {
     public static void main(String[] args) {
@@ -11,8 +11,11 @@ public class Tests {
         // OS object
           OS os = new OS();
           os.setOS("Windows");
-        testCaseOne.browser = browser;
-        testCaseOne.operatingSystem = os;
+        testCaseOne.browser = browser; // browser object
+        testCaseOne.operatingSystem = os; // operatingsytem object
+        testCaseOne.name = "Oscar"; // string object
+        testCaseOne.age = 45; // integer object
+
 
         System.out.println(testCaseOne);
 
