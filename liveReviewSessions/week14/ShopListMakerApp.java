@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class ShopListMakerApp {
 
     public static Scanner scanner; // global variable for this class - Declare the object reference
-
+    public static int x ; // this a global variable
     public static void main(String[] args) {
-
+        System.out.println(x);
         printInstructions();
-       //  Scanner input = new Scanner(System.in);
+      //  Scanner input = new Scanner(System.in);
 
         boolean toContinue = true;
         while(toContinue){
@@ -29,7 +29,8 @@ public class ShopListMakerApp {
     // some method, if I don't wanna create an object : should be static
 
     public static void printInstructions() {
-        scanner = new Scanner(System.in);   // iniialize
+         x = 10;
+        scanner = new Scanner(System.in);   // initialize
         System.out.println("Select : ");
         System.out.println("\t 0 - To print menu options.");
         System.out.println("\t 1 - To print the list of Shopping Items.");
