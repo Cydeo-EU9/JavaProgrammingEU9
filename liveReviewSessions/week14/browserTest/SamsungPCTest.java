@@ -23,6 +23,17 @@ public class SamsungPCTest {
         System.out.print("Step 3. ");
     demoBlazeTestSamsung.shopFor("Samsung PC");
 
+    LaptopTest laptopTest = new LaptopTest(browser,os,4);
+        System.out.print("Step 4. ");
+    laptopTest.shopFor("Samsung PC");
+
+    /*
+    Selenium:
+    get("url");
+    navigateTo("url);
+    findElement().....
+     */
+
     }
 
 }

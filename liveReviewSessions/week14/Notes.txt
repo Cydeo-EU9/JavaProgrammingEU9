@@ -14,15 +14,23 @@ Requirements:
  Q2: What if I made printInstructions in the BluePrint class, as an instance method, how can I handle scanner object?
 
  Inheritance: (Key element of OOP topics)
+
+
  Method Overriding !
  Is-A relationship needed. So we have two classes, that extends and inherits
  Same name, same parameters
+Return Type has to be SAME or Co-Variant (What does it mean?) - Sub-Classes
+
+
+
 
  WHY we actually need it?
 Because child class might need more detailed implementaion of the SAME method
 
 
- Method Overloading: Same method name with deifferent parameters! Happens in the same class
+ Method Overloading: Same method name with different parameters! Happens in the same class
+
+ Method Hiding !!!!!!
 
  * We will pretend like we are testing a web application with custom classes we create
  * You will learn Selenium Library(dependency,tool)

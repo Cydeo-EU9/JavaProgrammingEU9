@@ -15,4 +15,6 @@ public class LaptopTest extends DemoBlazeTest{
         System.out.println("Adding "+this.quantity+" amount of "+super.product+" to cart");
     }
 
+
+
 }
