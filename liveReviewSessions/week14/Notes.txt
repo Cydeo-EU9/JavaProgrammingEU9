@@ -12,3 +12,35 @@ Requirements:
  Q1: Without creating a bluePrint class for GroceryList, what if I wanted to put everything in the main method class and make all methods static, Like printInstructions method !!!
 
  Q2: What if I made printInstructions in the BluePrint class, as an instance method, how can I handle scanner object?
+
+ Inheritance: (Key element of OOP topics)
+ Method Overriding !
+ Is-A relationship needed. So we have two classes, that extends and inherits
+ Same name, same parameters
+
+
+ Method Overloading: Same method name with deifferent parameters! Happens in the same class
+
+ * We will pretend like we are testing a web application with custom classes we create
+ * You will learn Selenium Library(dependency,tool)
+* Create
+    - Browser class
+    - OS class
+    - TestCase class will have browser and OS objects in it (HAS A relationship)
+    - AppTest class extend to TestCase class (IS-A relationship)
+
+
+
+
+
+Framework :
+    - Coding Language (Java) --- Javascript, Pyhton
+    - UI Automation: (Selenium) --
+    - Approach : BDD-Behavioural Driven Development (Cucumber)
+    - Unit Testing Tool : Junit4 and Junit5, TestNG
+    - Maven Built Tool
+
+ * Cypress Framework: very famous
+ * Serenity Framework
+ * SmartSpec Framework (Groovy, Gradle Built Tool)
+ * Karate Framework (similar Cucumber) USA companies use it
