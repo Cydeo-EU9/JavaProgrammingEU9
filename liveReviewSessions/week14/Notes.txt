@@ -7,3 +7,8 @@ Requirements:
 
     in ArrayList which method returns a negative number if the item is NOT in the arrayList?
     indexOf()
+
+
+ Q1: Without creating a bluePrint class for GroceryList, what if I wanted to put everything in the main method class and make all methods static, Like printInstructions method !!!
+
+ Q2: What if I made printInstructions in the BluePrint class, as an instance method, how can I handle scanner object?

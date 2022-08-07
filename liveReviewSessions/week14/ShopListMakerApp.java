@@ -7,12 +7,12 @@ public class ShopListMakerApp {
    // static GroceryList list = new GroceryList();
 
     public static Scanner scanner; // global variable for this class - Declare the object reference
-    public static int x ; // this a global variable
+  //  public static int x ; // this a global variable
 
     public static void main(String[] args) {
         GroceryList list = new GroceryList();
         printInstructions();
-        System.out.println(x);
+   //     System.out.println(x);
         //  Scanner input = new Scanner(System.in);
 
         boolean toContinue = true;
@@ -64,7 +64,7 @@ public class ShopListMakerApp {
     // some method, if I don't wanna create an object : should be static
 
     public static void printInstructions() {
-         x = 10;
+    //     x = 10;
         scanner = new Scanner(System.in);   // initialize
         System.out.println("Select : ");
         System.out.println("\t 0 - To print menu options.");

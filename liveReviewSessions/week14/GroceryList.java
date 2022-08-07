@@ -1,6 +1,7 @@
 package week14;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GroceryList { // blueprint class that holds function and object of Shopping items
 // We will create some instance methods that will do the action defined in the print instructions
@@ -46,5 +47,17 @@ public class GroceryList { // blueprint class that holds function and object of 
         }
 
         return list;
+    }
+
+    public void printInstructions() {
+
+        System.out.println("Select : ");
+        System.out.println("\t 0 - To print menu options.");
+        System.out.println("\t 1 - To print the list of Shopping Items.");
+        System.out.println("\t 2 - To add an item in the list.");
+        System.out.println("\t 3 - To modify an item in the list.");
+        System.out.println("\t 4 - To remove an item in the list.");
+        System.out.println("\t 5 - To search an item in the list.");
+        System.out.println("\t 6 - Quit the application.");
     }
 }
