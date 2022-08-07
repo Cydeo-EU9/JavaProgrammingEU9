@@ -16,8 +16,8 @@ public class TestCase {
     @Override
     public String toString() {
         return "TestCase{" +
-                "browser=" + browser +
-                ", operatingSystem=" + operatingSystem +
+                "browser=" + browser.getBrowserType() +
+                ", operatingSystem=" + operatingSystem.getOS() +
                 '}';
     }
 }
