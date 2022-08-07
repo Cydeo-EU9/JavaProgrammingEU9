@@ -25,6 +25,19 @@ public class GroceryList { // blueprint class that holds function and object of 
         groceryList.remove(position-1);
     }
 
+    public String findItem(String searchItem){
+        String searchResult;
+        if(groceryList.size()==0){
+            return null;
+        }
+        searchResult = "Not Found";
+        int index = groceryList.indexOf(searchItem);
+        if(index>=0){
+            searchResult = searchItem+ " item found at line "+(index+1);
+        }
+        return searchResult;
+    }
+
     @Override
     public String toString() {
         String list = "You have " + groceryList.size() + " items in your shopping list";

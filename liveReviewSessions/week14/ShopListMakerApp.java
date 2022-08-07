@@ -45,6 +45,12 @@ public class ShopListMakerApp {
                     scanner.nextLine();
                     list.removeItem(itemNumber);
                     break;
+                case 5:
+                    System.out.println("Enter item name that you want to search:");
+                    scanner.nextLine();
+                    String searchItem = scanner.nextLine();
+                    System.out.println(list.findItem(searchItem));
+                    break;
                 case 6:
                     toContinue = false;
                     break;

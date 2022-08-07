@@ -4,3 +4,6 @@ Requirements:
             - Assume if this app starts, a list object is created
             - the app will add, remove, update, search items
     - We will have a blueprint class that holds our app's functionality
+
+    in ArrayList which method returns a negative number if the item is NOT in the arrayList?
+    indexOf()
