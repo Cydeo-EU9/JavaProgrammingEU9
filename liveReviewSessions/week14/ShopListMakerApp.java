@@ -11,15 +11,21 @@ public class ShopListMakerApp {
 
     public static void main(String[] args) {
         GroceryList list = new GroceryList();
-        System.out.println(x);
         printInstructions();
-      //  Scanner input = new Scanner(System.in);
+        System.out.println(x);
+        //  Scanner input = new Scanner(System.in);
 
         boolean toContinue = true;
         while(toContinue){
             System.out.println("Enter your NEXT choice: ");
             int choice = scanner.nextInt();
             switch (choice){
+                case 0:
+                    printInstructions();
+                    break;
+                case 1:
+                    System.out.println(list);
+                    break;
                 case 2:
                     System.out.println("Enter your grocery item:");
                     scanner.nextLine();
@@ -32,6 +38,13 @@ public class ShopListMakerApp {
                     System.out.println("Enter a replacement item : ");
                     String newItem = scanner.nextLine();
                     list.modifyGroceryItem(itemNo,newItem);
+                    break;
+                case 4:
+                    System.out.println("Enter the item number that will be removed");
+                    int itemNumber = scanner.nextInt();
+                    scanner.nextLine();
+                    list.removeItem(itemNumber);
+                    break;
                 case 6:
                     toContinue = false;
                     break;
