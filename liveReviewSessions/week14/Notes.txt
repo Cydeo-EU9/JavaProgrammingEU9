@@ -1,0 +1,6 @@
+Requirements:
+    - The app starts with printing instructions.
+    - the user will select from menu some options
+            - Assume if this app starts, a list object is created
+            - the app will add, remove, update, search items
+    - We will have a blueprint class that holds our app's functionality
