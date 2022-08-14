@@ -10,10 +10,8 @@ public class MultiCatchExample {
 
         System.out.println("Hello, enter an integer number which is a positive number bigger than zero");
         int x = 5;
-
+        Scanner scanner = new Scanner(System.in);
         try {
-            Scanner scanner = new Scanner(System.in);
-
             int y = scanner.nextInt();
 
             System.out.println(x / y); // there is a possibility that you might get ArithmeticException, InputMismatchException
