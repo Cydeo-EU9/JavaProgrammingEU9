@@ -7,7 +7,7 @@ public class MultiCatchExample02 {
         String word = "Java";
         word = null;
         try {
-            System.out.println(word.substring(20));
+            System.out.println(word.substring(20));     // unchecked exception : before compile it is not checked
         }catch (StringIndexOutOfBoundsException e){
             System.out.println("e.getClass().getSimpleName() = " + e.getClass().getSimpleName());
         }catch (NullPointerException n){
