@@ -14,3 +14,14 @@ Scanner input = new Scanner(System.in);
  In API Testing you will creating POJO classes
 
  POJO is not something fancy: Plain Old Java Object
+
+ SoftSkill is everywhere  : Agile Environment, Scrum Ceremonies
+
+ 1. JAVA-GitHub-HTML-Selenium (Library)
+
+ CUCUMBER FRAMEWORK ( You will sell this knowledde) I worked with BDD approach
+ BDD: Behavioral Driven Development   ----- TDD : Test Driven Development
+
+2. CI/CD Tool (Jenkins)
+3. Back End Testing : SQL Language + JDBC (allows us to connect Database with Java Code)
+4. API Testing : RestAssured Library
