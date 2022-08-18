@@ -43,12 +43,14 @@ public class TJMaxx {
      * @return
      */
 
+    public ArrayList<Item> getItems(){return this.items;}
 
     /**
      * getter for onSaleItems
      * @return
      */
 
+    public ArrayList<OnSaleItem> getOnSaleItems(){return this.onSaleItems;}
 
     /**
      * return count of regularItem object

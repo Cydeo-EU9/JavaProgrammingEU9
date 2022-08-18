@@ -10,3 +10,7 @@ Scanner input = new Scanner(System.in);
 
  What is the reason of creating objects from custom classes?
  - to reach methods and fields of that custom class
+
+ In API Testing you will creating POJO classes
+
+ POJO is not something fancy: Plain Old Java Object
