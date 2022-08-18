@@ -17,7 +17,7 @@ public class TJMaxx {
      * as new ArrayList
      */
     public TJMaxx() {
-        this.items = new ArrayList<Item>();
+        this.items = new ArrayList<Item>();    // creates an empty arraylist object
         this.onSaleItems = new ArrayList<OnSaleItem>();
     }
 
@@ -57,12 +57,14 @@ public class TJMaxx {
      * @return
      */
 
+    public int countOfItems(){return items.size();}
+
 
     /**
      * returns count of onSaleItems in TJ Maxx
      * @return
      */
-
+    public int countOfOnSaleItems(){return onSaleItems.size();}
 
     /**
      * returns the name of each item in TJ Maxx starting
@@ -70,6 +72,16 @@ public class TJMaxx {
      * @return
      */
 
+    public ArrayList<String> getAllItemsNamesINSTORE(){
+        ArrayList<String> allNames = new ArrayList<>();
+        for(Item each: items){
+            allNames.add(each.getName());
+        }
+        for(OnSaleItem each: onSaleItems){
+            allNames.add(each.getName());
+        }
+        return allNames;
+    }
 
     /**
      * gets catalog number and returns price for the item
@@ -78,6 +90,19 @@ public class TJMaxx {
      * @returns 0.0 if product cannot be found with that catalognumber
      */
 
+    public double getPriceOfItem (int catalogNumber){
+        for(Item each: items){
+            if(each.getCatalogNumber()==catalogNumber){
+                    return each.getPrice();
+            }
+        }
+        for(OnSaleItem each: onSaleItems){
+            if(each.getCatalogNumber()==catalogNumber){
+                return each.getPrice();
+            }
+        }
+        return 0.0;
+      }
 
     /**
      * accepts a name then searches
@@ -94,6 +119,7 @@ public class TJMaxx {
      * Does nothing if not found
      * @param catalogNumber
      */
+
 
 
     /**

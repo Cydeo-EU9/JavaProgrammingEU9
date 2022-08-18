@@ -68,7 +68,9 @@ Item > OnSaleItem > TJMaxx
         public String getName(){return this.name;}
 
 
-
+    public int getCatalogNumber() {
+        return catalogNumber;
+    }
 
     /**
      * Override toString:
