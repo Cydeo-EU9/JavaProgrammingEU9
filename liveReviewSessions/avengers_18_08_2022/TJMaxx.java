@@ -1,6 +1,7 @@
 package avengers_18_08_2022;
 
 
+import java.util.ArrayList;
 
 public class TJMaxx {
     /**
@@ -8,6 +9,8 @@ public class TJMaxx {
      * and OnSaleItem objects that represent items that sell in TJMaxx
      */
 
+    private ArrayList<Item> items;  // this an Arraylist Object, that holds objects of Item Type
+    private ArrayList<OnSaleItem> onSaleItems;
 
     /**
      * Public no-args constructor - Instantiates regularItems and onSaleItems lists
