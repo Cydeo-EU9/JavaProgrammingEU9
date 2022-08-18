@@ -1,0 +1,12 @@
+
+Scanner input = new Scanner(System.in);
+ int num = new Scanner(System.in).nextInt();
+
+ When we use new keyword we create an object
+
+ new Scanner(System.in) this statement is no different writing object reference
+
+ When we create custom class and from classes we create objects
+
+ What is the reason of creating objects from custom classes?
+ - to reach methods and fields of that custom class
