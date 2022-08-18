@@ -17,21 +17,26 @@ public class TJMaxx {
      * as new ArrayList
      */
     public TJMaxx() {
-
-
+        this.items = new ArrayList<Item>();
+        this.onSaleItems = new ArrayList<OnSaleItem>();
     }
 
     /**
      * adds an item object to regularItems list
-     * @param item
+     * @param nameOfItem
      */
 
+    public void addItem(Item nameOfItem){
+        items.add(nameOfItem);
+    }
 
     /**
      * adds OnSaleItem object to onSaleItems list
      * @param item
      */
-
+    public void addOnSaleItem(OnSaleItem item){
+        onSaleItems.add(item);
+    }
 
     /**
      * getter for regularItems
