@@ -19,7 +19,7 @@ Scanner input = new Scanner(System.in);
 
  1. JAVA-GitHub-HTML-Selenium (Library)
 
- CUCUMBER FRAMEWORK ( You will sell this knowledde) I worked with BDD approach
+ CUCUMBER FRAMEWORK ( You will sell this knowledge) I worked with BDD approach
  BDD: Behavioral Driven Development   ----- TDD : Test Driven Development
 
 2. CI/CD Tool (Jenkins)
