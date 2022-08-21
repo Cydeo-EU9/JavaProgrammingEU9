@@ -4,10 +4,15 @@ public abstract class Exercise {
 
     public double weight;
 
+    public int minutes = 10;
+
     public Exercise(double weight){
         this.weight=weight;
     }
 
+    public static void giveUpAndEatJunkFood(){
+        System.out.println("If you don't feel like use the default static method");
+    }
     public void start(){
         System.out.println("Warming up and starting the exercise");
     }
