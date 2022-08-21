@@ -16,5 +16,9 @@ public class Running extends Exercise {
         System.out.println("Performing running exercise on the Track");
     }
 
+    // Below overriding is NOT mandatory
+    @Override
+    public void start(){
 
+    }
 }
