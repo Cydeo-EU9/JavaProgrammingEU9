@@ -1,6 +1,9 @@
 package week16;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class Test{              // we deleted final keyword so we can inherit
     void method(){       // we deleted final keyword so we can override
         System.out.println("Hello");
@@ -32,7 +35,28 @@ public class FinalKeyword extends Test{
        // x=5;
        // System.out.println(x);
 
+        final int[] nums = {1,2,3};
+        System.out.println(nums[0]);
+        nums[0]=5;
+        System.out.println(nums[0]);
 
+       // nums = new int[]{5,6,7};  not allowed
 
+        final ArrayList<String> colors = new ArrayList<>();
+
+        colors.add("Orange");
+        colors.add("Red");
+
+        colors.remove(0);
+
+        // colors = new ArrayList<>();
+
+        colors.addAll(Arrays.asList("Blue","Green","White"));
+
+        final ArrayList<String> Users = new ArrayList<>();
+
+        /*
+        If something is created by Java Developers it is due to a need...
+         */
     }
 }
