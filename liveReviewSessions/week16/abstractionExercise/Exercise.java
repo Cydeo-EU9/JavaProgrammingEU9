@@ -12,8 +12,8 @@ public abstract class Exercise {
         System.out.println("Warming up and starting the exercise");
     }
 
-    abstract int getCaloriesCount(int minutes);
+    public abstract int getCaloriesCount(int minutes);
     // no  body, no implememtation, sub classes will override, they are created in a way that, they meant to be overriden
 
-    abstract void perform();
+    public abstract void perform();
 }
