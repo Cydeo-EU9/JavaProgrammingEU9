@@ -17,6 +17,9 @@ public class ChildSpeak {
 
         ArrayList<String> outputWordList = new ArrayList<>(Arrays.asList(wordArray));
 
+        outputWordList = replaceAllwithFirstConsonant(outputWordList,firstConsonant);
+
+        System.out.println("outputWordList = " + outputWordList);
 
 //        System.out.println(Arrays.toString(wordArray));
 //
@@ -44,6 +47,7 @@ Rule 1: Turn all consonants into first consonant
     -> Find first consonant and replace the others with this one
         - > isVowel, isConsonant
         - > firstConsonant
+        - > turn all into that one
 {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"} - consonant
 {"a", "e", "i", "o", "u", "y"} - vowel
 
@@ -80,6 +84,15 @@ island  : issass : sissass
         return null;
     }
 
-    // replaceAllwithFirstConsonant
+    // replaceAllwithFirstConsonant : parameter Arraylist, return type Arraylist
+
+    public static ArrayList<String> replaceAllwithFirstConsonant(ArrayList<String> list,String first ){
+        for (int i = 0; i < list.size(); i++) {
+             if(isConsonant(list.get(i))){
+                 list.set(i,first);
+             }
+     }
+        return list;
+    }
 
 }
