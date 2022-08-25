@@ -1,5 +1,6 @@
 package avengers_25_08_2022;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ChildSpeak {
@@ -10,20 +11,39 @@ public class ChildSpeak {
 
             String[] wordArray = word.split("");
 
-        System.out.println(Arrays.toString(wordArray));
+            String firstConsonant = firstConsonant(wordArray);
+//  i s l a n d ---> with 6 chars ----> 7 chars --- > 5  --- > 4
+   // I don't know how many characters my output word will be
 
-        for(int i=0; i<wordArray.length; i++){
-            System.out.println(wordArray[i]+" "+isConsonant(wordArray[i]));
+        ArrayList<String> outputWordList = new ArrayList<>(Arrays.asList(wordArray));
+
+
+//        System.out.println(Arrays.toString(wordArray));
+//
+//        for(int i=0; i<wordArray.length; i++){
+//            if(isConsonant(wordArray[i]))
+//            System.out.println(wordArray[i]+" consonant");
+//            else if(isVowel(wordArray[i]))
+//                System.out.println(wordArray[i]+" vowel");
+
+
+
         }
 
 
-    }
+
 
 /*
 In the task all Rules deal with being consonant or vowel. So I created two custom methods that I can call whenever I need an answer for this issue
-
+- Clean Code
+- Re-usability
+- Working solution
+- Understandable code
 island  : issass
 Rule 1: Turn all consonants into first consonant
+    -> Find first consonant and replace the others with this one
+        - > isVowel, isConsonant
+        - > firstConsonant
 {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"} - consonant
 {"a", "e", "i", "o", "u", "y"} - vowel
 
@@ -43,5 +63,23 @@ island  : issass : sissass
         }
         return false;
     }
+    public static boolean isVowel(String s){
+        String[] vowels = {"a", "e", "i", "o", "u", "y"};
+
+        for(int i=0; i<vowels.length; i++){
+            if(s.equals(vowels[i])) return true;
+        }
+        return false;
+    }
+
+    public static String firstConsonant(String[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            if(isConsonant(arr[i]))
+                return arr[i];
+        }
+        return null;
+    }
+
+    // replaceAllwithFirstConsonant
 
 }
