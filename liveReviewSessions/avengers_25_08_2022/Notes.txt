@@ -1,0 +1,21 @@
+
+Rules about Creating Methods:
+
+Can we create another method in a method?  NO, we can call another method
+
+Either No Return or with some return type methods.
+
+When you have a return type method, you HAVE to return that DataType.
+
+A method can have same name with class name
+
+Method overloading: same name, different parameters
+changing return type is NOT method overloading
+
+At Method OverRiding: return type has to be same or Co-variant
+
+static keyWord is a specifier, when you put it to a method, it makes that method part of the class, you can call that method with class name
+
+No static methods: Instance Methods --- Belongs to objects, and can be called only with object
+
+
