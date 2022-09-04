@@ -1,0 +1,13 @@
+Java is Object Oriented Programming Language !
+
+* Re-Usability is main concern
+It means for Java what an OBJECT can reach in Coding Structure
+
+Object Oriented:
+Object what to reach and how to reach !!!!!!!
+Create a relationship between code structures
+
+Reference type decides what can be accessible. Object type decides to use most specific one.
+--------------------------------
+Parent abstract class --- Mother and Father
+Worker abstract methods -- interface --- your friend, your children
