@@ -1,9 +1,11 @@
 package week18.polymorphismDemo;
 
-public class Links implements WebElement{
+public class Links extends Browser implements WebElement{
 
 
-
+    public void getLinkHref(){
+        System.out.println("https://www.java.com");
+    }
 
     @Override
     public void click() {
@@ -19,5 +21,10 @@ public class Links implements WebElement{
     public String getText() {
         System.out.println("Getting Link Text");
         return "Oracle Java";
+    }
+
+    @Override
+    public Links locateElement(String locator) {
+        return new Links();
     }
 }

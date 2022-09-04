@@ -1,6 +1,6 @@
 package week18.polymorphismDemo;
 
-public class InputFields implements WebElement{
+public class InputFields extends Browser implements WebElement{
 
 
     @Override
@@ -16,5 +16,10 @@ public class InputFields implements WebElement{
     @Override
     public String getText() {
         return null;
+    }
+
+    @Override
+    public InputFields locateElement(String locator) {
+        return new InputFields();
     }
 }
