@@ -11,3 +11,8 @@ Reference type decides what can be accessible. Object type decides to use most s
 --------------------------------
 Parent abstract class --- Mother and Father
 Worker abstract methods -- interface --- your friend, your children
+
+--------------------
+WebElement: inputFields, links, buttons, checkboxes, radioButtons ...etc
+interface WebElement
+
