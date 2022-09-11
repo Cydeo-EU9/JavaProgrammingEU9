@@ -10,6 +10,8 @@ public class ListExamples {
 
         stringList = new Stack<>(); // I can do this, we can change the object type
 
+        // STACK = LIFO
+
         stringList.add("Yasar");
         stringList.add("Mikey");
         stringList.addAll(Arrays.asList("Yasar","Omer","Maya","Kamuran","Nermin","Jamal",null,null));
