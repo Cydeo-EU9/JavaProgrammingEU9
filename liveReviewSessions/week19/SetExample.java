@@ -25,5 +25,24 @@ public class SetExample {
         setTree.addAll(list);
         System.out.println("setTree = " + setTree);
 
+
+        List<String> strList = new ArrayList<>();
+
+        strList.addAll(Arrays.asList("abc","cbd","java","js","typescript","html","abc","java",null,null,null));
+
+        // sort this list and take out duplicates and null values : winner less amount of code lines
+  // less than 5
+       Set<String> set = new HashSet<>();
+       set.addAll(strList);
+       set.remove(null);
+       Set<String> sortedSet = new TreeSet<>();
+       sortedSet.addAll(set);
+        System.out.println("sortedSet = " + sortedSet);
+
+
+
+
+
+
     }
 }
